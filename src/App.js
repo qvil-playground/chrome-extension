@@ -1,15 +1,13 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import SimpleCard from "./SimpleCard";
+
+window.__MUI_USE_NEXT_TYPOGRAPHY_VARIANTS__ = true;
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          Hello World
-        </header>
+      <div>
+        <SimpleCard />
       </div>
     );
   }
